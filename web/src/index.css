@@ -1,0 +1,41 @@
+/**
+ * START --- SETUP TAILWINDCSS EDIT
+ *
+ * `yarn rw setup ui tailwindcss` placed these imports here
+ * to inject Tailwind's styles into your CSS.
+ * For more information, see: https://tailwindcss.com/docs/installation#include-tailwind-in-your-css
+ */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/**
+ * END --- SETUP TAILWINDCSS EDIT
+ */
+
+body {
+  background-color: #1F3E4F;
+  color: #81AB7C;
+}
+
+.Card {
+  width: 295px;
+  height: 368px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.Card div {
+  padding: 5px;
+}
+
+.Card .Name {
+  border-bottom: 1px solid #000000;
+}
+
+.Card .Type {
+  border-bottom: 1px solid #000000;
+}
+
+.Card .Content {
+
+}
